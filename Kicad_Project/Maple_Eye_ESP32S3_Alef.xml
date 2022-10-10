@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/alb/Data/xpulabs/crowdfunding/Maple-Eye-ESP32S3-Alef/Maple_Eye_ESP32S3_Alef.kicad_sch</source>
+    <date>2022年10月10日 星期一 13时30分55秒</date>
+    <tool>Eeschema 6.0.6-3a73a75311~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Maple Eye ESP32-S3 Alef</title>
+        <company>AnalogLamb.Com</company>
+        <rev>Alef</rev>
+        <date/>
+        <source>Maple_Eye_ESP32S3_Alef.kicad_sch</source>
+        <comment number="1" value="https://github.com/AnalogLamb/Maple-Eye-ESP32S3-Alef"/>
+        <comment number="2" value="https://www.analoglamb.com"/>
+        <comment number="3" value="https://github.com/espressif/esp-who"/>
+        <comment number="4" value="Make AIoT Easy"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BOOT1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3x4MM_2P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cc58d18-5505-4a99-9faa-c936a3135091</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>NC/100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>862a985c-5cee-4f17-8eaf-f4a1d3acb218</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>NC/100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63bd87b6-829b-4d82-9aeb-4adb0a8572c8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58a13edf-e4ba-41be-86fa-2384ae67aeb5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdf106fa-004f-4558-b1c1-91a8033d020a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72f86a21-a213-44d1-a661-85a583f899c5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c6fe4c8-6d35-4a95-93e9-f68629fc7f2a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a8db297-6ace-41b9-8975-0babd9e517f0</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>2.2nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21ecf689-b772-41e2-81ed-77b45a7c1b8f</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16ea365c-d7f5-4c44-b4c6-7d8ef461a0ca</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37c2c5f6-e02b-4209-8e7a-ca90fd3c22d3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aaaf7a8-e6b3-4bf7-8d5a-691944d38a42</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c847883-a462-4ea9-9466-d1dd1edc5a97</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7816fa98-3e23-4b12-b4eb-b80b64c7f06b</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83a5090d-761f-4426-bd8c-0b858811fff8</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d33c58ca-78a4-4a43-8c2c-cba89ca6fc3a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61cd4037-401f-4cff-80ff-7d228578df2b</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa5f38f1-ca86-4068-875a-818944c99f11</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38c7e1de-7592-4453-8350-75b7238f92af</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17fbedcf-badc-4132-80cd-f9b71e67df62</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baccd632-535b-480b-9851-c5fde0098146</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>213021cb-292f-48f5-9f6b-b7b3e646eb67</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fd1c6ba-7093-4680-90a4-39953aef027d</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeb4f27d-6c88-41fa-9b46-704f5a9395f4</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14f17992-d118-469e-9d15-94cde6b3ddbc</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d126d2a-7eea-4eda-bd92-1122d3333e10</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c26f01e7-1e87-40d1-a901-306d25de9b5e</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d9c25be-e96c-4768-aded-d1b8fa91477a</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b82461d8-3017-42b6-b29d-8511db328ccc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>695946cc-dcd5-41bf-aaca-133892912b2b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>22pF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14affacd-56c9-4212-9463-1eac87290fdb</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d38a22f-d0f5-496e-82fc-6634e1f180a6</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>1uF</value>
+      <footprint>XPULabs:0402C</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>923d6296-7e7d-4a8c-ae43-289eee530c4b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>XPULabs:0402D</footprint>
+      <libsource lib="" part="LED_1" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1574ed78-9b89-401a-8a64-55d23e9f6d6e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>XPULabs:0402D</footprint>
+      <libsource lib="" part="LED_1" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b6f980e-ea4f-4b84-b3d3-77fe02511849</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>XPULabs:SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58e39d8e-987b-48a1-8782-3330cbad6dc7</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>XPULabs:0402D</footprint>
+      <libsource lib="" part="LED_1" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a0657d4-8764-4d34-a0ef-57b5253bd474</tstamps>
+    </comp>
+    <comp ref="DOWN1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3X4MM_2P_HS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94dbdb17-ceac-450c-9871-9d97ac41830c</tstamps>
+    </comp>
+    <comp ref="EN1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3x4MM_2P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a013531-e82f-4d19-8b1c-1ff078b15205</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5376ef32-042b-4c69-9dd7-1338bba3e08c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bee20fa-7f25-447d-9584-2c789ff17e12</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>682a236d-8ea9-4aa0-96c1-08bcbbac3130</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9db47975-4fb8-4148-91b4-8f6d2c9c439e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>XPULabs:MICRO-USB5+4P-SMD-0.65-B</footprint>
+      <libsource lib="AnalogLamb_Connector" part="USB_B_Micro" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0164702-426e-4c87-abe5-fbfeda4c6ede</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn-PH_SB_1x02</value>
+      <footprint>XPULabs:S2B-PH</footprint>
+      <libsource lib="AnalogLamb_Connector" part="Conn-PH_SB_1x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c492d99-aca1-4fc2-8da7-d6b12e8676d0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn-Header_1x06</value>
+      <footprint>XPULabs:1X06</footprint>
+      <libsource lib="AnalogLamb_Connector" part="Conn-Header_1x06" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a19fbaea-f025-4f68-83a0-cabb6903cde1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>FH34SRJ-24S-0.5SH</value>
+      <footprint>AnalogLamb:Conn-FPC-HRS-FH34SRJ-24S-0.5SH</footprint>
+      <libsource lib="AnalogLamb_Connector" part="FH34SRJ-24S-0.5SH" description="CONN FFC FPC 24POS 0.50MM R/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d4b50eb-ce48-421a-8c0f-f818d4e0a708</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn-Header_1x12</value>
+      <footprint>XPULabs:LCD_1.3_SPI</footprint>
+      <libsource lib="AnalogLamb_Connector" part="Conn-Header_1x12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>921e688c-dc11-4037-acc8-9ca3c96501a8</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn-Header_1x12</value>
+      <footprint>XPULabs:LCD_1.3_SPI</footprint>
+      <libsource lib="AnalogLamb_Connector" part="Conn-Header_1x12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b950447-4b83-4279-bc6c-2851174e3a8a</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn-MicroSD-Molex-0473092651</value>
+      <footprint>AnalogLamb:Conn-MicroSD-Molex-0473092651</footprint>
+      <libsource lib="AnalogLamb_Connector" part="Conn-MicroSD-Molex-0473092651" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99cc7708-ea73-4d45-b9c0-127e10ae8f69</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <datasheet>WPN252010U2R2</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d971c6-6101-4656-baaa-eade1bc1c642</tstamps>
+    </comp>
+    <comp ref="MENU1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3X4MM_2P_HS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b9bd02c-2c3a-4a12-a9ab-0d6c9ef77563</tstamps>
+    </comp>
+    <comp ref="PLAY1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3X4MM_2P_HS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9da3947b-40a0-4191-be0c-46b0d0add49e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3415</value>
+      <footprint>XPULabs:SOT23-3</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fed9b4c-166d-4165-ab5b-44cb0f12f1ba</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3415</value>
+      <footprint>XPULabs:SOT23-3</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75bd562a-1ed7-4084-9992-4215c346c6c0</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3415</value>
+      <footprint>XPULabs:SOT23-3</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce6a9e14-c06c-472c-a297-5611e71e9410</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3904</value>
+      <footprint>XPULabs:SOT23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba2a0a50-72ae-472a-b3e2-cf5ce0e2633f</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904</value>
+      <footprint>XPULabs:SOT23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88218bab-1f9f-4cee-bb17-26925c51d9fe</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>27K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce596310-d83f-4401-ba5e-3e2beff6223e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b5d6c3-0713-43d7-b3ee-9e13ff1743c6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcab9c25-b626-46f2-8779-0c03739a90c0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>15K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85cb9d0e-ee26-4936-a8bb-876efbc224e2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.5K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>743672b1-b82b-40a0-94f2-7a8636760b81</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1294d0b4-3279-4110-848e-a2462b40d905</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>3.3K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fa4b900-6eb0-49c4-8eea-5cf77d07d37b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a17b82f-671a-43cc-889d-8f643334e78c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4450c83-6da6-4393-a892-92bf8cbec8aa</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1.3K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ab42f73-d552-4046-89b2-1571ca13fe85</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dda54826-e264-476c-9ad6-7b45d0ff33f5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d36463bb-2251-4b4f-9ee2-06bd19f0fd74</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1.6K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>723e8472-f858-4de8-b9b5-7a85dd843c21</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdeae338-41fc-4be7-aa64-ab606168e1b4</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1.5K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c7e0e88-a0df-41f3-b2f3-7891dc76972a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1.5K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed9c15a9-bde8-4fa3-ab5e-d957ad8b0d45</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c7ed0d2-7aec-4517-8aa1-a0a07be1d923</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1.5K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1640c92-0a7b-4990-ae42-e9436c2a460d</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1M</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>848b6227-856f-4ff9-b4fc-e673279f4547</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dee541c-8afd-49a4-9e07-43e2d06269a6</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10R</value>
+      <footprint>XPULabs:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ab0b6e-b1fd-4c80-8350-6babc6ff1d29</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bb79723-3ab9-4a0a-80c2-d7e833b92be9</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>NC/0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df1d7304-b45a-4b93-8990-ac656d28f148</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f4c9a25-41a3-47d5-8ed8-790b54a4ea7c</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba658db7-45ec-4266-ae4b-022e81d5e1f6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b62df4bb-f8ff-4df5-a747-50e948b2d5d4</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653dd821-90d7-41d4-a4f1-72dba540d190</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0994fd7-0bf2-4d64-ac39-9a59f5ca6845</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e569e1a2-ee75-4fbe-848d-80ac8c9673c8</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9078fd5-f82d-4ad9-b722-2aecdbf59a78</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>187f4bdc-a97b-43c7-8b33-ebb1d5289381</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28b68348-4afe-47c0-9eed-13665d313b97</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6955a448-2b04-4a05-9e2e-6ce37d0df58f</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fee9b180-dcd3-4202-8332-b3221d2f0059</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d168d9e9-7917-4786-bd3a-4ccc5123558e</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d49de4f-8395-4579-9b98-fbd8a44dff76</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21142391-f34e-48fe-a74a-663a5cf3b265</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28efb0c0-a888-40f4-b85f-f1d04fa0d6b9</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09f7f0aa-b4fe-4d5d-bd90-b2bc00b393d4</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caf66e50-f603-4fab-bf9e-2633243d7456</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a64e65a6-0921-42f3-a378-560b77cd307f</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df34b4e-4727-47b7-abcd-c92bf61ec68c</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75788f49-a91d-4692-b94e-eaa08e97cc18</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b4ac0a7-29f5-42b0-9071-d469eb17d536</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e4c014c-0fc5-4053-b54d-d957e8c0d6e3</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e895f4e-840d-494e-949d-64ee55a14d27</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>1M</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f758ec9-95f3-4acf-8bdb-6d3c6615ff72</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>1M</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ccce417-2e7b-411b-9c97-c72c47cb9c34</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c68435-c10c-4f5a-ba93-68badca3258d</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99f996d9-8e90-437c-8e5d-ec365bcb1023</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>2.2K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd844fa5-b250-4f90-b118-719dd7fccdc5</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>675675f0-4c3a-4113-956d-94a97022d17b</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a534651-4d45-4e2e-ac73-4ad9bcb9cc81</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e35ea4b-bf42-4656-9c99-a8ee9db2c0b4</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>2.2K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccccb121-6e5b-4014-b767-d36a6c475c3b</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6290b2ed-bc20-4a2b-a735-5725faf87e6b</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1270b653-6d50-479d-99b1-4e88beb73265</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04b0e23b-41e7-407e-809f-f67e5848ab6a</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9856cb61-ec19-4b27-a135-f0af4bf8da27</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77762fcb-0f5f-40a3-9127-fcc7ef94ff35</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ff08dd9-7402-4090-8c67-6adba7622a2e</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>NC/10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c1be26-d8f9-4a9d-a89a-d53796210431</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41eb805d-3ec5-4d37-bbcf-6891473a7974</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>NC/0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3d5ce72-7311-461c-b580-7497b9dcb551</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>NC/0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a853bb2e-4a86-4aec-9997-d5ac6a31a115</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>0R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c04de45b-b2fe-4127-8e4e-c53899b0c5ac</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>10R</value>
+      <footprint>XPULabs:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa8eb5f7-1670-4ab0-ad07-9739bf850a65</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>470R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81e752ab-36cb-4c05-8770-929a6fe1cf5c</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>100R</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd2f006b-36fe-4f17-8dc8-45bc3f5914a4</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>NC/10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0567b832-fe2e-46cc-8c42-6049d62ade5b</tstamps>
+    </comp>
+    <comp ref="R72">
+      <value>120K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b43755d-75e1-45b8-89fd-b1fc6dc897e5</tstamps>
+    </comp>
+    <comp ref="R73">
+      <value>27K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a27d7c74-ad91-493c-b75c-90cd24340964</tstamps>
+    </comp>
+    <comp ref="R74">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e08b0a87-16e8-47d6-ac47-62ed4b4c8b45</tstamps>
+    </comp>
+    <comp ref="R75">
+      <value>10K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4876c35-1f63-40ea-9765-0e801665fc2b</tstamps>
+    </comp>
+    <comp ref="R76">
+      <value>15K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3e064db-25ef-41cb-9d5f-5d7109375b34</tstamps>
+    </comp>
+    <comp ref="R77">
+      <value>15K</value>
+      <footprint>XPULabs:0402R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20f88914-8eb5-44e2-b91b-bf679b121f74</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x02</value>
+      <footprint>XPULabs:CHS-02B</footprint>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e3d1b5-69be-43a8-8d5d-27a9be77af73</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-S3-WROOM-1</value>
+      <footprint>XPULabs:ESP32-S3-WROOM-1</footprint>
+      <libsource lib="AnalogLamb_ESP32" part="ESP32-S3-WROOM-1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a1466ab-b349-48bf-b4f2-b99acad4031b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ME4054B-N</value>
+      <footprint>XPULabs:SOT23-5</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20191226/C478383_334A5ED125CA9F8F85F7DE0AC0ECFE6D.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="ME4054B-N" description="IC Single Li Bat Charger SOT23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40702d4e-3e87-422d-8a5d-12772b4ac554</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CW2015</value>
+      <footprint>Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210512/C881838_09B0689D9538DF441B283DD8D668F2A7.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="CW2015" description="IC Fuel Gauge  with Low SOC Alert TDFN8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebaf216a-a9f6-45bd-9882-f54882e524b4</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ME6211C28M5G-N</value>
+      <footprint>XPULabs:SOT23-5</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20211210/ACC7C3E9BA56F250BF966425916E32B9.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="ME6211C" description="IC High Speed LDO 500mA SOT23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9ddad7f-5981-451d-b103-cbc807f6c9a4</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ME6211C15M5G-N</value>
+      <footprint>XPULabs:SOT23-5</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20211210/ACC7C3E9BA56F250BF966425916E32B9.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="ME6211C" description="IC High Speed LDO 500mA SOT23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dca10e58-70d4-4fa9-9a6b-ec04ec1cdfd9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MSM261S4030H0R</value>
+      <footprint>AnalogLamb:MSM261S4030H0R</footprint>
+      <libsource lib="AnalogLamb_IC" part="MSM261S4030H0R" description="IC I2S MEMS Micphone 3x4MM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ddeaedb-1db1-4be3-949b-b75a174d871c</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>QMA7981</value>
+      <footprint>XPULabs:LGA-12_2x2mm_P0.5mm</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20200428/C457290_0C469DB722057536A92DDC2B5C76B19C.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="QMA7981" description="SEN 3-Axis Accelerometer LGA12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35161c68-0db1-40bf-ac6a-9892ed965280</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>APS2410</value>
+      <footprint>XPULabs:SOT23-5</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20170918/C130329_1505703381497975239.pdf</datasheet>
+      <libsource lib="AnalogLamb_IC" part="APS2410" description="DC-DC Buck 1A ADJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3229bf9e-c893-43fd-861c-6b0088749d8a</tstamps>
+    </comp>
+    <comp ref="UP1">
+      <value>SW_Push</value>
+      <footprint>XPULabs:PB_3X4MM_2P_HS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Maple_Eye_ESP32S3_Alef.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c2c487f-e611-4e05-a227-2a0f6897cef2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="LED_1">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="Conn-Header_1x06">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn-Header_1x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="Conn-Header_1x12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn-Header_1x12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="Conn-MicroSD-Molex-0473092651">
+      <footprints>
+        <fp>SD_CARD_EXT_SMD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn-MicroSD-Molex-0473092651</field>
+        <field name="Footprint">AnalogLamb:Conn-MicroSD-Molex-0473092651</field>
+      </fields>
+      <pins>
+        <pin num="G1" name="GND" type="passive"/>
+        <pin num="G2" name="GND" type="passive"/>
+        <pin num="G3" name="POL" type="passive"/>
+        <pin num="G4" name="DET" type="passive"/>
+        <pin num="P1" name="DAT2" type="passive"/>
+        <pin num="P2" name="CD/DAT3" type="passive"/>
+        <pin num="P3" name="CMD" type="passive"/>
+        <pin num="P4" name="VDD" type="passive"/>
+        <pin num="P5" name="CLK" type="passive"/>
+        <pin num="P6" name="VSS" type="passive"/>
+        <pin num="P7" name="DAT0" type="passive"/>
+        <pin num="P8" name="DAT1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="Conn-PH_SB_1x02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn-PH_SB_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="M1" name="" type="passive"/>
+        <pin num="M2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="FH34SRJ-24S-0.5SH">
+      <description>CONN FFC FPC 24POS 0.50MM R/A</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FH34SRJ-24S-0.5SH</field>
+        <field name="Footprint">AnalogLamb:Conn-FPC-HRS-FH34SRJ-24S-0.5SH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="M1" name="M1" type="passive"/>
+        <pin num="M2" name="M2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_Connector" part="USB_B_Micro">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_ESP32" part="ESP32-S3-WROOM-1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="IO4" type="passive"/>
+        <pin num="5" name="IO5" type="passive"/>
+        <pin num="6" name="IO6" type="passive"/>
+        <pin num="7" name="IO7" type="passive"/>
+        <pin num="8" name="IO15" type="passive"/>
+        <pin num="9" name="IO16" type="passive"/>
+        <pin num="10" name="IO17" type="passive"/>
+        <pin num="11" name="IO18" type="passive"/>
+        <pin num="12" name="IO8" type="passive"/>
+        <pin num="13" name="IO19" type="passive"/>
+        <pin num="14" name="IO20" type="passive"/>
+        <pin num="15" name="IO3" type="passive"/>
+        <pin num="16" name="IO46" type="passive"/>
+        <pin num="17" name="IO9" type="passive"/>
+        <pin num="18" name="IO10" type="passive"/>
+        <pin num="19" name="IO11" type="passive"/>
+        <pin num="20" name="IO12" type="passive"/>
+        <pin num="21" name="IO13" type="passive"/>
+        <pin num="22" name="IO14" type="passive"/>
+        <pin num="23" name="IO21" type="passive"/>
+        <pin num="24" name="IO47" type="passive"/>
+        <pin num="25" name="IO48" type="passive"/>
+        <pin num="26" name="IO45" type="passive"/>
+        <pin num="27" name="IO0" type="passive"/>
+        <pin num="28" name="IO35" type="passive"/>
+        <pin num="29" name="IO36" type="passive"/>
+        <pin num="30" name="IO37" type="passive"/>
+        <pin num="31" name="IO38" type="passive"/>
+        <pin num="32" name="IO39" type="passive"/>
+        <pin num="33" name="IO40" type="passive"/>
+        <pin num="34" name="IO41" type="passive"/>
+        <pin num="35" name="IO42" type="passive"/>
+        <pin num="36" name="RXD0" type="passive"/>
+        <pin num="37" name="TXD0" type="passive"/>
+        <pin num="38" name="IO2" type="passive"/>
+        <pin num="39" name="IO1" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="APS2410">
+      <description>DC-DC Buck 1A ADJ</description>
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20170918/C130329_1505703381497975239.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APS2410</field>
+        <field name="Footprint">XPULabs:SOT23-5</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20170918/C130329_1505703381497975239.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="VIN" type="passive"/>
+        <pin num="5" name="FB/OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="CW2015">
+      <description>IC Fuel Gauge  with Low SOC Alert TDFN8</description>
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20210512/C881838_09B0689D9538DF441B283DD8D668F2A7.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CW2015</field>
+        <field name="Footprint">Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20210512/C881838_09B0689D9538DF441B283DD8D668F2A7.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTG" type="passive"/>
+        <pin num="2" name="CELL" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="#ALRT" type="passive"/>
+        <pin num="6" name="QSTRT" type="passive"/>
+        <pin num="7" name="SCL" type="passive"/>
+        <pin num="8" name="SDA" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="ME4054B-N">
+      <description>IC Single Li Bat Charger SOT23-5</description>
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20191226/C478383_334A5ED125CA9F8F85F7DE0AC0ECFE6D.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ME4054B-N</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20191226/C478383_334A5ED125CA9F8F85F7DE0AC0ECFE6D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CHRG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="PROG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="ME6211C">
+      <description>IC High Speed LDO 500mA SOT23-5</description>
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20211210/ACC7C3E9BA56F250BF966425916E32B9.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ME6211C</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20211210/ACC7C3E9BA56F250BF966425916E32B9.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="MSM261S4030H0R">
+      <description>IC I2S MEMS Micphone 3x4MM</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MSM261S4030H0R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="WS" type="passive"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="L/R" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
+        <pin num="7" name="SD" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AnalogLamb_IC" part="QMA7981">
+      <description>SEN 3-Axis Accelerometer LGA12</description>
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20200428/C457290_0C469DB722057536A92DDC2B5C76B19C.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">QMA7981</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20200428/C457290_0C469DB722057536A92DDC2B5C76B19C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AD0" type="passive"/>
+        <pin num="2" name="SDX" type="passive"/>
+        <pin num="3" name="VDDIO" type="passive"/>
+        <pin num="4" name="RESV1" type="passive"/>
+        <pin num="5" name="INT1" type="passive"/>
+        <pin num="6" name="INT2" type="passive"/>
+        <pin num="7" name="VDD" type="passive"/>
+        <pin num="8" name="GNDIO" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="SENB" type="passive"/>
+        <pin num="11" name="RESV2" type="passive"/>
+        <pin num="12" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x02">
+      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AnalogLamb_Connector">
+      <uri>/data/xpulabs/__libs/KiCAD/AnalogLamb_Connector.kicad_sym</uri>
+    </library>
+    <library logical="AnalogLamb_ESP32">
+      <uri>/data/xpulabs/__libs/KiCAD/AnalogLamb_ESP32.kicad_sym</uri>
+    </library>
+    <library logical="AnalogLamb_IC">
+      <uri>/data/xpulabs/__libs/KiCAD/AnalogLamb_IC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V5">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="2" name="+2V8">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J5" pin="4" pintype="passive"/>
+      <node ref="J6" pin="4" pintype="passive"/>
+      <node ref="J7" pin="P4" pinfunction="VDD" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="R70" pin="1" pintype="passive"/>
+      <node ref="R72" pin="2" pintype="passive"/>
+      <node ref="R74" pin="1" pintype="passive"/>
+      <node ref="R75" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="3V3" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VIN" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="SENB" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="4" name="/CAM_PWDN">
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/CAM_RESET">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/DVP_HREF">
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/DVP_PCLK">
+      <node ref="J4" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/DVP_VSYNC">
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/DVP_Y2">
+      <node ref="J4" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/DVP_Y3">
+      <node ref="J4" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/DVP_Y4">
+      <node ref="J4" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/DVP_Y5">
+      <node ref="J4" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/DVP_Y6">
+      <node ref="J4" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/DVP_Y7">
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/DVP_Y8">
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/DVP_Y9">
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/EN">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="18" name="/I2C_SCL">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/I2C_SDA">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/I2S_SCK">
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="SCK" pintype="passive"/>
+    </net>
+    <net code="21" name="/I2S_SDO">
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="SD" pintype="passive"/>
+    </net>
+    <net code="22" name="/I2S_WS">
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="WS" pintype="passive"/>
+    </net>
+    <net code="23" name="/IO0">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IO0" pintype="passive"/>
+    </net>
+    <net code="24" name="/IO1">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="25" name="/IO2">
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="26" name="/IO3">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="27" name="/IO4">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO4" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="SDA" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="SDX" pintype="passive"/>
+    </net>
+    <net code="28" name="/IO5">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO5" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="SCL" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="29" name="/IO6">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IO6" pintype="passive"/>
+    </net>
+    <net code="30" name="/IO7">
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IO7" pintype="passive"/>
+    </net>
+    <net code="31" name="/IO8">
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO8" pintype="passive"/>
+    </net>
+    <net code="32" name="/IO9">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="IO9" pintype="passive"/>
+    </net>
+    <net code="33" name="/IO10">
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IO10" pintype="passive"/>
+    </net>
+    <net code="34" name="/IO11">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="IO11" pintype="passive"/>
+    </net>
+    <net code="35" name="/IO12">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="IO12" pintype="passive"/>
+    </net>
+    <net code="36" name="/IO13">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="IO13" pintype="passive"/>
+    </net>
+    <net code="37" name="/IO14">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="IO14" pintype="passive"/>
+    </net>
+    <net code="38" name="/IO15">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO15" pintype="passive"/>
+    </net>
+    <net code="39" name="/IO16">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO16" pintype="passive"/>
+    </net>
+    <net code="40" name="/IO17">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO17" pintype="passive"/>
+    </net>
+    <net code="41" name="/IO18">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IO18" pintype="passive"/>
+    </net>
+    <net code="42" name="/IO19">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO19" pintype="passive"/>
+    </net>
+    <net code="43" name="/IO20">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IO20" pintype="passive"/>
+    </net>
+    <net code="44" name="/IO21">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="IO21" pintype="passive"/>
+    </net>
+    <net code="45" name="/IO38">
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="IO38" pintype="passive"/>
+    </net>
+    <net code="46" name="/IO39">
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="IO39" pintype="passive"/>
+    </net>
+    <net code="47" name="/IO40">
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="IO40" pintype="passive"/>
+    </net>
+    <net code="48" name="/IO41">
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="IO41" pintype="passive"/>
+    </net>
+    <net code="49" name="/IO42">
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="IO42" pintype="passive"/>
+    </net>
+    <net code="50" name="/IO43">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="TXD0" pintype="passive"/>
+    </net>
+    <net code="51" name="/IO44">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="RXD0" pintype="passive"/>
+    </net>
+    <net code="52" name="/IO45">
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="R66" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="IO45" pintype="passive"/>
+    </net>
+    <net code="53" name="/IO46">
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IO46" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="#ALRT" pintype="passive"/>
+    </net>
+    <net code="54" name="/IO47">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="IO47" pintype="passive"/>
+    </net>
+    <net code="55" name="/IO48">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="IO48" pintype="passive"/>
+    </net>
+    <net code="56" name="/LCDB_BL">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="R74" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="/LCDT_BL">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R75" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="/LCD_BL">
+      <node ref="J5" pin="11" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R76" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="/LCD_BL_B">
+      <node ref="J6" pin="11" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="/LCD_CS">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="/LCD_DC">
+      <node ref="J5" pin="7" pintype="passive"/>
+      <node ref="J6" pin="7" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="/LCD_RST1">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+    </net>
+    <net code="63" name="/LCD_RST2">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+    </net>
+    <net code="64" name="/LCD_SCLK">
+      <node ref="J5" pin="9" pintype="passive"/>
+      <node ref="J6" pin="9" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="/LCD_SDA">
+      <node ref="J5" pin="10" pintype="passive"/>
+      <node ref="J6" pin="10" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="/LED_A">
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="/LED_A_B">
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="/LED_K">
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="/LED_K_B">
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="/SD_CLK">
+      <node ref="J7" pin="P5" pinfunction="CLK" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="/SD_CMD">
+      <node ref="J7" pin="P3" pinfunction="CMD" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="/SD_DAT">
+      <node ref="J7" pin="P7" pinfunction="DAT0" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="/UD+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="/UD-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="/XMCLK">
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="GND">
+      <node ref="BOOT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="EN1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="M1" pintype="passive"/>
+      <node ref="J2" pin="M2" pintype="passive"/>
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="M1" pinfunction="M1" pintype="passive"/>
+      <node ref="J4" pin="M2" pinfunction="M2" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J5" pin="12" pintype="passive"/>
+      <node ref="J5" pin="5" pintype="passive"/>
+      <node ref="J5" pin="6" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="J6" pin="12" pintype="passive"/>
+      <node ref="J6" pin="5" pintype="passive"/>
+      <node ref="J6" pin="6" pintype="passive"/>
+      <node ref="J7" pin="G1" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="G2" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="G3" pinfunction="POL" pintype="passive"/>
+      <node ref="J7" pin="G4" pinfunction="DET" pintype="passive"/>
+      <node ref="J7" pin="P6" pinfunction="VSS" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="R67" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R73" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="CTG" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="AD0" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="RESV1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="GNDIO" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(BOOT1-Pad2)">
+      <node ref="BOOT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="EN1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(C30-Pad2)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="R72" pin="1" pintype="passive"/>
+      <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="FB/OUT" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(C31-Pad1)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="R69" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R68" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="CELL" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="CHRG" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(DOWN1-Pad1)">
+      <node ref="DOWN1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(DOWN1-Pad2)">
+      <node ref="DOWN1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MENU1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PLAY1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="UP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R66" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(MENU1-Pad1)">
+      <node ref="MENU1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(PLAY1-Pad1)">
+      <node ref="PLAY1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R76" pin="2" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R77" pin="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="UP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PROG" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(R49-Pad2)">
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(R62-Pad1)">
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="L/R" pintype="passive"/>
+    </net>
+    <net code="100" name="VBAT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
+      <node ref="R69" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="101" name="VBUS">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="102" name="VSYS">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="EN" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J4-Pad23)">
+      <node ref="J4" pin="23" pinfunction="23" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J4-Pad24)">
+      <node ref="J4" pin="24" pinfunction="24" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J7-PadP1)">
+      <node ref="J7" pin="P1" pinfunction="DAT2" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J7-PadP2)">
+      <node ref="J7" pin="P2" pinfunction="CD/DAT3" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J7-PadP8)">
+      <node ref="J7" pin="P8" pinfunction="DAT1" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="IO35" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U1-Pad29)">
+      <node ref="U1" pin="29" pinfunction="IO36" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="IO37" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="QSTRT" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="INT1" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="INT2" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U7-Pad11)">
+      <node ref="U7" pin="11" pinfunction="RESV2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
